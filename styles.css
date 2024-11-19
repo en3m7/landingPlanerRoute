@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    padding: 40px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+#pic {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s; 
+}
+
+#pic:hover {
+    transform: scale(1.05); 
+}
+
+#button1, #button2 {
+    padding: 10px 20px;
+}
+
+footer {
+    position: relative;
+}
+
+#response-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.img-hover {
+    transition: transform 0.3s ease;
+}
+.img-hover:hover {
+    transform: scale(1.05);
+}
